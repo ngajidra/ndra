@@ -350,6 +350,9 @@ h1, h2, h3, h4, h5, h6 {
 #hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
+#hero .hero-img img {
+  width: 90%;
+}
 @media (max-width: 991px) {
   #hero {
     height: 115vh;
@@ -362,7 +365,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
   }
   #hero .hero-img img {
-    width: 50%;
+    width: 45%;
   }
 }
 @media (max-width: 768px) {
@@ -521,6 +524,12 @@ section {
 }
 .about .content p:last-child {
   margin-bottom: 0;
+}
+
+@media (max-width: 991px) {
+  #about .about-img {
+    text-align: center;
+  }
 }
 
 /*--------------------------------------------------------------
