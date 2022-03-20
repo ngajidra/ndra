@@ -533,12 +533,12 @@ section {
 }
 @media (max-width: 768px) {
   #about .about-img {
-    height: auto;
+    text-align: center;
   }
 }
 @media (max-width: 575px) {
   #about .about-img {
-    width: 80%;
+    text-align: center;
   }
 }
 
@@ -886,12 +886,12 @@ section {
 }
 @media (max-width: 768px) {
   #team .team-align {
-    height: auto;
+    text-align: center;
   }
 }
 @media (max-width: 575px) {
   #team .team-align {
-    width: 80%;
+    text-align: center;
   }
 }
 
