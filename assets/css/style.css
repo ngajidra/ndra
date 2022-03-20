@@ -531,6 +531,16 @@ section {
     text-align: center;
   }
 }
+@media (max-width: 768px) {
+  #about .about-img {
+    height: auto;
+  }
+}
+@media (max-width: 575px) {
+  #about .about-img {
+    width: 80%;
+  }
+}
 
 /*--------------------------------------------------------------
 # Counts
@@ -867,6 +877,22 @@ section {
 .team .member .social i {
   font-size: 18px;
   margin: 0 2px;
+}
+
+@media (max-width: 991px) {
+  #team .team-align {
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  #team .team-align {
+    height: auto;
+  }
+}
+@media (max-width: 575px) {
+  #team .team-align {
+    width: 80%;
+  }
 }
 
 /*--------------------------------------------------------------
