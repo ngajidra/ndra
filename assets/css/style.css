@@ -351,6 +351,7 @@ h1, h2, h3, h4, h5, h6 {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 #hero .hero-img img {
+  margin-top: 50px;
   width: 90%;
 }
 @media (max-width: 991px) {
